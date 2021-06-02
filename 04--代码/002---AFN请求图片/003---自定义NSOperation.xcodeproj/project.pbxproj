@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A610D3A20F484E9000D6BB5 /* UIImageView+KCWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A610D3920F484E9000D6BB5 /* UIImageView+KCWebCache.m */; };
+		7AD24CBF20EF40CB008AE5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24CBE20EF40CB008AE5ED /* AppDelegate.m */; };
+		7AD24CC220EF40CB008AE5ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24CC120EF40CB008AE5ED /* ViewController.m */; };
+		7AD24CC520EF40CB008AE5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD24CC320EF40CB008AE5ED /* Main.storyboard */; };
+		7AD24CC720EF40CC008AE5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD24CC620EF40CC008AE5ED /* Assets.xcassets */; };
+		7AD24CCA20EF40CC008AE5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD24CC820EF40CC008AE5ED /* LaunchScreen.storyboard */; };
+		7AD24CCD20EF40CC008AE5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24CCC20EF40CC008AE5ED /* main.m */; };
+		7AD24CD520EF44EA008AE5ED /* KCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24CD420EF44EA008AE5ED /* KCCollectionViewCell.m */; };
+		7AD24CD820EF51F6008AE5ED /* KCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24CD720EF51F6008AE5ED /* KCModel.m */; };
+		7AD24CDB20EF527D008AE5ED /* KCViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24CDA20EF527D008AE5ED /* KCViewModel.m */; };
+		7AD24CE420EF8FF9008AE5ED /* NSString+KCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24CE320EF8FF9008AE5ED /* NSString+KCAdd.m */; };
+		7AD24D0A20F0933E008AE5ED /* KCWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24D0920F0933E008AE5ED /* KCWebImageManager.m */; };
+		7AD24D0D20F0A876008AE5ED /* KCWebImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD24D0C20F0A876008AE5ED /* KCWebImageDownloadOperation.m */; };
+		90809A92C196852339EFC8AC /* libPods-003---自定义NSOperation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF12743725C1EC42D915BACB /* libPods-003---自定义NSOperation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D8548B4DD1CABDEF4436A2E /* Pods-003---自定义NSOperation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-003---自定义NSOperation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-003---自定义NSOperation/Pods-003---自定义NSOperation.debug.xcconfig"; sourceTree = "<group>"; };
+		3EFC412182FA4F522F6EEA14 /* Pods-003---自定义NSOperation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-003---自定义NSOperation.release.xcconfig"; path = "Pods/Target Support Files/Pods-003---自定义NSOperation/Pods-003---自定义NSOperation.release.xcconfig"; sourceTree = "<group>"; };
+		7A610D3820F484E9000D6BB5 /* UIImageView+KCWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KCWebCache.h"; sourceTree = "<group>"; };
+		7A610D3920F484E9000D6BB5 /* UIImageView+KCWebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KCWebCache.m"; sourceTree = "<group>"; };
+		7AD24CBA20EF40CA008AE5ED /* 003---自定义NSOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "003---自定义NSOperation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD24CBD20EF40CA008AE5ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AD24CBE20EF40CB008AE5ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AD24CC020EF40CB008AE5ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AD24CC120EF40CB008AE5ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AD24CC420EF40CB008AE5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AD24CC620EF40CC008AE5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AD24CC920EF40CC008AE5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AD24CCB20EF40CC008AE5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD24CCC20EF40CC008AE5ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AD24CD320EF44EA008AE5ED /* KCCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCCollectionViewCell.h; sourceTree = "<group>"; };
+		7AD24CD420EF44EA008AE5ED /* KCCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCCollectionViewCell.m; sourceTree = "<group>"; };
+		7AD24CD620EF51F6008AE5ED /* KCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCModel.h; sourceTree = "<group>"; };
+		7AD24CD720EF51F6008AE5ED /* KCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCModel.m; sourceTree = "<group>"; };
+		7AD24CD920EF527D008AE5ED /* KCViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCViewModel.h; sourceTree = "<group>"; };
+		7AD24CDA20EF527D008AE5ED /* KCViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCViewModel.m; sourceTree = "<group>"; };
+		7AD24CE220EF8FF9008AE5ED /* NSString+KCAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+KCAdd.h"; sourceTree = "<group>"; };
+		7AD24CE320EF8FF9008AE5ED /* NSString+KCAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+KCAdd.m"; sourceTree = "<group>"; };
+		7AD24D0820F0933E008AE5ED /* KCWebImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCWebImageManager.h; sourceTree = "<group>"; };
+		7AD24D0920F0933E008AE5ED /* KCWebImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCWebImageManager.m; sourceTree = "<group>"; };
+		7AD24D0B20F0A876008AE5ED /* KCWebImageDownloadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCWebImageDownloadOperation.h; sourceTree = "<group>"; };
+		7AD24D0C20F0A876008AE5ED /* KCWebImageDownloadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCWebImageDownloadOperation.m; sourceTree = "<group>"; };
+		BF12743725C1EC42D915BACB /* libPods-003---自定义NSOperation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-003---自定义NSOperation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AD24CB720EF40CA008AE5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90809A92C196852339EFC8AC /* libPods-003---自定义NSOperation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AD24CB120EF40CA008AE5ED = {
+			isa = PBXGroup;
+			children = (
+				7AD24CBC20EF40CA008AE5ED /* 003---自定义NSOperation */,
+				7AD24CBB20EF40CA008AE5ED /* Products */,
+				8973FF33F9C2BF57891D324A /* Pods */,
+				E80EE7BDE0891B11EA0625F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AD24CBB20EF40CA008AE5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AD24CBA20EF40CA008AE5ED /* 003---自定义NSOperation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AD24CBC20EF40CA008AE5ED /* 003---自定义NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				7AD24D0720F09311008AE5ED /* KCTool */,
+				7AD24CBD20EF40CA008AE5ED /* AppDelegate.h */,
+				7AD24CBE20EF40CB008AE5ED /* AppDelegate.m */,
+				7AD24CC020EF40CB008AE5ED /* ViewController.h */,
+				7AD24CC120EF40CB008AE5ED /* ViewController.m */,
+				7AD24CD320EF44EA008AE5ED /* KCCollectionViewCell.h */,
+				7AD24CD420EF44EA008AE5ED /* KCCollectionViewCell.m */,
+				7AD24CD620EF51F6008AE5ED /* KCModel.h */,
+				7AD24CD720EF51F6008AE5ED /* KCModel.m */,
+				7AD24CD920EF527D008AE5ED /* KCViewModel.h */,
+				7AD24CDA20EF527D008AE5ED /* KCViewModel.m */,
+				7AD24CC320EF40CB008AE5ED /* Main.storyboard */,
+				7AD24CC620EF40CC008AE5ED /* Assets.xcassets */,
+				7AD24CC820EF40CC008AE5ED /* LaunchScreen.storyboard */,
+				7AD24CCB20EF40CC008AE5ED /* Info.plist */,
+				7AD24CCC20EF40CC008AE5ED /* main.m */,
+			);
+			path = "003---自定义NSOperation";
+			sourceTree = "<group>";
+		};
+		7AD24D0720F09311008AE5ED /* KCTool */ = {
+			isa = PBXGroup;
+			children = (
+				7AD24CE220EF8FF9008AE5ED /* NSString+KCAdd.h */,
+				7AD24CE320EF8FF9008AE5ED /* NSString+KCAdd.m */,
+				7AD24D0820F0933E008AE5ED /* KCWebImageManager.h */,
+				7AD24D0920F0933E008AE5ED /* KCWebImageManager.m */,
+				7AD24D0B20F0A876008AE5ED /* KCWebImageDownloadOperation.h */,
+				7AD24D0C20F0A876008AE5ED /* KCWebImageDownloadOperation.m */,
+				7A610D3820F484E9000D6BB5 /* UIImageView+KCWebCache.h */,
+				7A610D3920F484E9000D6BB5 /* UIImageView+KCWebCache.m */,
+			);
+			path = KCTool;
+			sourceTree = "<group>";
+		};
+		8973FF33F9C2BF57891D324A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D8548B4DD1CABDEF4436A2E /* Pods-003---自定义NSOperation.debug.xcconfig */,
+				3EFC412182FA4F522F6EEA14 /* Pods-003---自定义NSOperation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E80EE7BDE0891B11EA0625F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF12743725C1EC42D915BACB /* libPods-003---自定义NSOperation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AD24CB920EF40CA008AE5ED /* 003---自定义NSOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD24CD020EF40CC008AE5ED /* Build configuration list for PBXNativeTarget "003---自定义NSOperation" */;
+			buildPhases = (
+				F24C94D4EDCED3E4366EBFA9 /* [CP] Check Pods Manifest.lock */,
+				7AD24CB620EF40CA008AE5ED /* Sources */,
+				7AD24CB720EF40CA008AE5ED /* Frameworks */,
+				7AD24CB820EF40CA008AE5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "003---自定义NSOperation";
+			productName = "003---自定义NSOperation";
+			productReference = 7AD24CBA20EF40CA008AE5ED /* 003---自定义NSOperation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AD24CB220EF40CA008AE5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Cooci;
+				TargetAttributes = {
+					7AD24CB920EF40CA008AE5ED = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AD24CB520EF40CA008AE5ED /* Build configuration list for PBXProject "003---自定义NSOperation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AD24CB120EF40CA008AE5ED;
+			productRefGroup = 7AD24CBB20EF40CA008AE5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AD24CB920EF40CA008AE5ED /* 003---自定义NSOperation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AD24CB820EF40CA008AE5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD24CCA20EF40CC008AE5ED /* LaunchScreen.storyboard in Resources */,
+				7AD24CC720EF40CC008AE5ED /* Assets.xcassets in Resources */,
+				7AD24CC520EF40CB008AE5ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F24C94D4EDCED3E4366EBFA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-003---自定义NSOperation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AD24CB620EF40CA008AE5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD24D0A20F0933E008AE5ED /* KCWebImageManager.m in Sources */,
+				7AD24CC220EF40CB008AE5ED /* ViewController.m in Sources */,
+				7AD24CCD20EF40CC008AE5ED /* main.m in Sources */,
+				7AD24D0D20F0A876008AE5ED /* KCWebImageDownloadOperation.m in Sources */,
+				7AD24CD520EF44EA008AE5ED /* KCCollectionViewCell.m in Sources */,
+				7AD24CBF20EF40CB008AE5ED /* AppDelegate.m in Sources */,
+				7AD24CE420EF8FF9008AE5ED /* NSString+KCAdd.m in Sources */,
+				7AD24CDB20EF527D008AE5ED /* KCViewModel.m in Sources */,
+				7A610D3A20F484E9000D6BB5 /* UIImageView+KCWebCache.m in Sources */,
+				7AD24CD820EF51F6008AE5ED /* KCModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AD24CC320EF40CB008AE5ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD24CC420EF40CB008AE5ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AD24CC820EF40CC008AE5ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD24CC920EF40CC008AE5ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AD24CCE20EF40CC008AE5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AD24CCF20EF40CC008AE5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AD24CD120EF40CC008AE5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8548B4DD1CABDEF4436A2E /* Pods-003---自定义NSOperation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "003---自定义NSOperation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tzuu.cn.-03------NSOperation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AD24CD220EF40CC008AE5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFC412182FA4F522F6EEA14 /* Pods-003---自定义NSOperation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5LAHK8PW6;
+				INFOPLIST_FILE = "003---自定义NSOperation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tzuu.cn.-03------NSOperation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AD24CB520EF40CA008AE5ED /* Build configuration list for PBXProject "003---自定义NSOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD24CCE20EF40CC008AE5ED /* Debug */,
+				7AD24CCF20EF40CC008AE5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD24CD020EF40CC008AE5ED /* Build configuration list for PBXNativeTarget "003---自定义NSOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD24CD120EF40CC008AE5ED /* Debug */,
+				7AD24CD220EF40CC008AE5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AD24CB220EF40CA008AE5ED /* Project object */;
+}
